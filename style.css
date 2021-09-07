@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    border: 2px solid;
+    height: 550px;
+}
+.parent h1{
+    font-size: 200px;
+    text-align: center;
+    font-family: 'Macondo Swash Caps', cursive;
+    color: red;
+    text-shadow: yellow 5px  5px;
+    letter-spacing: 20px;
+}
+.ninja1 img{
+    width: 200px;
+    position: absolute;
+    margin: 120px 0;
+    transition: 2s;
+    
+}
+.ninja1 .x1{
+    width: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 70px;
+    display: none;
+    
+}
+.ninja2{
+    text-align: right;
+    margin: 178px 0;
+    
+}
+.ninja2 .x2{
+    width: 50px;
+    position: relative;
+    bottom: 70px;
+    right: 80px;
+    display: none;
+    
+}
+.ninja2 .xx{
+    width: 150px;
+    display: none;
+    margin: -700px auto;
+}
+.ninja2 img{
+    width: 100px;
+    transition: 2s;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: yellow;
+    color: red;
+    font-size: 25px;
+    font-weight: 800;
+}
+.btn button:hover{
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.651);
+    background-color: rgba(255, 255, 0, 0.445);
+}
